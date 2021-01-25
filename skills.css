@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-skills{
+    background:linear-gradient(#1089CD,#16A3A3);
+    
+
+}
+
+section:nth-child(2)>h1{
+    /* right: 0; */
+    left: 45%;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px 3px rgb(15, 90, 160);
+    background-color: rgb(16, 243, 243);
+    color: rgb(28, 57, 110);
+}
+
+
+.lang{
+    position: absolute;
+    /* border: 1px red solid; */
+    height: 80%;
+    width: 20%;
+    top: 15%;
+    left: 10%;
+
+}
+
+.h-java{
+    position:absolute;
+    top: 1%
+}
+.h-sql{
+    position: absolute;
+    top: 20%;
+}
+
+.h-html{
+    position: absolute;
+    top: 40%;
+}
+.h-css{
+    position: absolute;
+    top: 60%;
+}
+
+.h-js{
+    position: absolute;
+    top: 80%;
+}
+
+
+.java-icon,.sql-icon,.html-icon,.css-icon,.js-icon{
+    position: absolute;
+    /* border: 1px solid brown; */
+    height: 80px;
+    width: 80px;
+    right: 0;
+    background-size: cover;
+    border-radius: 21%;
+    
+}
+
+.java-icon{
+    top: 0%;
+    background-image: url(img/javaaaa\).png);
+    box-shadow: 2px 2px 2px 2px darkblue;
+    
+   
+}
+.sql-icon{
+    top: 20%;
+    background-image: url(img/mysql2\).png);
+    box-shadow: 2px 2px 2px 2px darkblue;
+    
+}
+
+.html-icon{
+    top: 40%;
+    background-image: url(img/html.png);
+    box-shadow: 2px 2px 2px 2px rgb(148, 10, 38);
+}
+
+.css-icon{
+    top: 60%;
+    background-image: url(img/css.png);
+    box-shadow: 2px 2px 2px 2px rgb(34, 34, 240);
+}
+
+.js-icon{
+    top: 80%;
+    background-image: url(img/js.png);
+    box-shadow: 2px 2px 2px 2px rgb(104, 104, 11);
+
+}

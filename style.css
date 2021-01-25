@@ -3,31 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 
+header>h1{
+    font-size: 1.7rem;
+    position: relative;
+    left: 70px;
+    
+}
 
 header{
 
-    border: 1px solid blue;
-    position: sticky;
-    height: 8vh;
+    /* border: 1px solid blue; */
+    position: fixed;
+    top: 0;
+    height: 9vh;
     width: 100vw;
     z-index: 3;
     background: linear-gradient(#2D8A9E,#1CB99D);
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgb(4, 127, 136);
+    
+    
    
    
+}
+
+nav{
+
+    flex: 0.5;
+   
+   
+}
+#nav-ul{
+    
+    position: relative;
+    left: 550px;
+    
+    font-size: 3ex;
+    font-weight: bold;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
 }
 
 section{
 
     width: 100vw;
-    height: 100vh;
-    border: 1px solid red;
+    height: 91vh;
+    /* border: 1px solid red; */
     position: relative;
+    top: 9vh;
 
 
 }
+/* .section-one{
+    height: 91vh;
 
+} */
 
 .sky{
     
@@ -36,22 +76,137 @@ section{
    width: 100vw;
     background-image: url(img/clouds-fog-forest-9754.jpg);
     background-size: auto;
-    /* background-size: auto; */
+    background-size: auto;
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    box-shadow: 2px 2px 2px 2px rgb(33, 92, 109);
     
-    
-    
+}
+
+
+.profile-pic{
+    position: absolute;
+    border: 1px solid black;
+    width: 18%;
+    height: 70%;
+    left: 200px;
+    top: 50px;
+    border-radius: 100%;
+    background-image: url(img/me.jpg);
+    background-size: cover;
+  
 
 }
+
+
+.hi{
+    position: absolute;
+    left: 30%;
+    top: 75%;
+}
+.hey{
+    font-size: 5ex;
+    font-weight: bold;
+    color: rgb(211, 198, 187);
+    
+}
+.dd{
+    font-size: 3ex;
+    color: rgb(182, 117, 53);
+}
+
+.social{
+    height: 15%;
+    width: 25%;
+    /* border: 1px solid blue; */
+    left: 55%;
+    top: 35%;
+    position: absolute;
+
+}
+.social>div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 5px;
+    background-size: cover;
+}
+
+
+.fb{
+    background-image: url(img/fb.png);
+    left: 0%;
+
+}
+
+.whatsapp{
+    background-image: url(img/what.png);
+    left: 20%;
+}
+
+.linkedin{
+    background-image: url(img/social-linkedin-circle-512.png);
+    left: 40%;
+}
+.github{
+    background-image: url(img/github\).png);
+    left: 60%;
+}
+.stack{
+    background-image: url(img/stackoverflow.png);
+    left: 80%;
+}
+
 
 .details{
     width: auto;
+    background: linear-gradient(#129CAF,#83ccc7,#4ccec5);
    
     bottom: 10px;
-    height: 37vh;
-    border: 1px solid yellow;
+    height: 36vh;
+    
+    /* border: 1px solid yellow; */
+    
 
 }
+
+.cv-button{
+    position: absolute;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: yellowgreen 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+    height: 50px;
+    right: 50%;
+    bottom: 5%;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    background-color: rgb(20, 143, 20);
+    
+
+}
+
+.mydetails{
+    /* border: 1px solid red; */
+    height: 37%;
+    width: 40%;
+    left: 80px;
+    position: absolute;
+}
+
+.p-detail{
+    top: 20px;
+    position: absolute;
+    line-height: 2.2em;
+    font-size: 2.5ex;
+    font-weight: bold;
+}
+
+
