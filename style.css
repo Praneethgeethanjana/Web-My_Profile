@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+
+    border: 1px solid blue;
+    position: sticky;
+    height: 8vh;
+    width: 100vw;
+    z-index: 3;
+    background: linear-gradient(#2D8A9E,#1CB99D);
+   
+   
+}
+
+section{
+
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+    position: relative;
+
+
+}
+
+
+.sky{
+    
+    top: 0;
+   height: 55vh;
+   width: 100vw;
+    background-image: url(img/clouds-fog-forest-9754.jpg);
+    background-size: auto;
+    /* background-size: auto; */
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    
+    
+    
+
+}
+
+.details{
+    width: auto;
+   
+    bottom: 10px;
+    height: 37vh;
+    border: 1px solid yellow;
+
+}
