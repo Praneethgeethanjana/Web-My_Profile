@@ -6,8 +6,6 @@
 
 .section-skills{
     background:linear-gradient(#1089CD,#16A3A3);
-    
-
 }
 
 section:nth-child(2)>h1{
@@ -64,7 +62,7 @@ section:nth-child(2)>h1{
     width: 80px;
     right: 0;
     background-size: cover;
-    border-radius: 21%;
+    border-radius: 22%;
     
 }
 

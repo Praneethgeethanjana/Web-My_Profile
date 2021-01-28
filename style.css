@@ -58,7 +58,7 @@ section{
 
     width: 100vw;
     height: 91vh;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     position: relative;
     top: 9vh;
 
@@ -121,7 +121,7 @@ section{
     height: 15%;
     width: 25%;
     /* border: 1px solid blue; */
-    left: 55%;
+    left: 60%;
     top: 35%;
     position: absolute;
 

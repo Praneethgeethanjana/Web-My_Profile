@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-contact{
+    background-color:#C4C4C4;
+    height: 80vh;
+   
+   
+}
+
+.f{
+    height: 20vh;
+    width: 100vw;
+    position: absolute;
+    background: linear-gradient(#1CB99D,#2D8A9E);
+}
+
+.thanks{
+    position: absolute;
+    left: 41%;
+    top: 25%;
+}
+.h-contact{
+    left: 43%;
+    position: absolute;
+
+}
+
+.ar-msg{
+    border: 1px solid blue;
+    height: 100%;
+    width: 20%;
+    background-color: #E0DEDF;
+}
+
+.phone-icon,.msg-icon,.loc-icon{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    left: 8%;
+}
+
+.phone-icon{
+   
+    background-image: url(img/phoneicon.png);
+    top: 8%;
+}
+
+.msg-icon{
+    background-image: url(img/msgicon.png);
+    top: 38%;
+}
+
+.loc-icon{
+    background-image: url(img/icons8-user-location-64.png);
+    top:68% ;
+}
+.number{
+    position: absolute;
+    left: 5.5%;
+    top: 20%;
+}
+
+.location{
+    position: absolute;
+    left: 5.2%;
+    top: 80%;
+}
+
+.f>h4{
+    position: absolute;
+    left: 33%;
+    top: 43%;
+    text-align: center;
+
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-projects{
+    background: linear-gradient(#2DCFBE,#0093E9,#3d5dad);
+}
+
+section:nth-child(3)>h1{
+    left: 43%;
+    position: absolute;
+    background-color: rgb(24, 30, 31);
+    border-spacing: 10px;
+    color: rgb(192, 78, 167);
+    box-shadow: 2px 2px 2px 2px rgb(145, 14, 145);
+    
+}
+
+.pro1,.pro2,.pro3,.pro4{
+    position: absolute;
+    height: 30%;
+    width: 20%;
+    border: 1px solid green;
+    top: 35%;
+    border-radius: 10%;
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px rgb(8, 8, 82);
+
+    
+}
+
+.pro1{
+    left: 5%;
+    background-image: url(img/project1.jpg);
+    
+}
+.pro2{
+    left: 28%;
+    background-image: url(img/project4.jpg);
+}
+.pro3{
+    left: 51%;
+    background-image: url(img/project3.jpg);
+    
+}
+.pro4{
+    left: 74%;
+    background-image: url(img/project6.jpg);
+}
