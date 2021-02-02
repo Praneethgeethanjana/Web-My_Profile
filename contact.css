@@ -7,6 +7,7 @@
 .section-contact{
     background-color:#C4C4C4;
     height: 80vh;
+    font-family: 'Nunito', sans-serif;
    
    
 }
@@ -31,12 +32,13 @@
 .h-contact{
     left: 43%;
     position: absolute;
-	  font-family: 'Nunito', sans-serif;
+	 
 
 }
 
 .ar-msg{
-    border: 1px solid blue;
+ 
+    /* border: 1px solid blue; */
     height: 100%;
     width: 20%;
     background-color: #E0DEDF;
@@ -69,6 +71,11 @@
     position: absolute;
     left: 5.5%;
     top: 20%;
+}
+.email{
+    position: absolute;
+    top: 50%;
+    left: 3%;
 }
 
 .location{

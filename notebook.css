@@ -1,0 +1,119 @@
+
+@media all and (max-width:1024px ) {
+    .hi {
+        text-align: center;
+        width: 1000px;
+        height: 130px;
+        position: absolute;
+        left: 63%;
+        top: 62%;
+        /* border: 1px solid red; */
+        transform: translate(-50%,0%);
+        -webkit-transform: translate(-50%,0%);
+        -moz-transform: translate(-50%,0%);
+        -ms-transform: translate(-50%,0%);
+        -o-transform: translate(-50%,0%);
+        /* border: 1px solid red; */
+    }
+
+    .hey {
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+        font-size: 5.5rem;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        animation: hey-left 1.5s ease forwards;
+        -webkit-animation: hey-left 1.5s ease forwards;
+    }
+
+    .mydetails {
+        /* border: 1px solid red; */
+        height: 97%;
+        width: 58%;
+        left: 85px;
+        position: absolute;
+    }
+
+    .p-detail {
+        top: 3px;
+        position: absolute;
+        line-height: 2.2em;
+        font-size: 2.5ex;
+        font-weight: bold;
+    }
+
+    section:nth-child(3)>h1 {
+        left: 47%;
+        /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+        position: absolute;
+        font-weight: bold;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+    }
+
+    .java-icon, .sql-icon, .html-icon, .css-icon, .js-icon {
+        position: absolute;
+        /* border: 1px solid brown; */
+        height: 61px;
+        width: 61px;
+        right: 0;
+        background-size: cover;
+        border-radius: 22%;
+    }
+
+    .pro1 {
+        left: 10%;
+        background-image: url(img/project1.jpg);
+    }
+
+    .pro2 {
+        left: 33%;
+        background-image: url(img/project4.jpg);
+    }
+
+    .pro3 {
+        left: 57%;
+        background-image: url(img/project3.jpg);
+    }
+
+    .pro4 {
+        left: 79%;
+        background-image: url(img/project6.jpg);
+    }
+
+    .as1 {
+        left: 10%;
+        background-image: url(img/assignment1.jpg);
+    }
+
+    .as2 {
+        left: 33%;
+        background-image: url(img/assignment2.jpg);
+    }
+
+    .as3 {
+        left: 57%;
+        background-image: url(img/assignment3.jpg);
+    }
+
+    .as4 {
+        left: 79%;
+        background-image: url(img/assignment4.jpg);
+    }
+
+    .ar-msg {
+        /* border: 1px solid blue; */
+        height: 100%;
+        width: 23%;
+        background-color: #E0DEDF;
+    }
+
+
+    .thanks {
+        position: absolute;
+        left: 46%;
+        top: 15%;
+        font-size: 20px;
+    }
+}
+

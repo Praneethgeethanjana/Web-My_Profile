@@ -6,6 +6,7 @@
 
 .section-skills{
     background:linear-gradient(#1089CD,#16A3A3);
+ 
 }
 
 section:nth-child(3)>h1{
@@ -97,4 +98,46 @@ section:nth-child(3)>h1{
     background-image: url(img/js.png);
     box-shadow: 2px 2px 2px 2px rgb(104, 104, 11);
 
+}
+
+progress{
+    position: absolute;
+    left: 40% ;
+    height: 7%;
+    width: 45%;
+    
+
+}
+    /* progress::-webkit-progress-value {
+        background: lightblue;
+      }
+      
+      progress::-moz-progress-bar {
+        background: lightcolor;
+      }
+     */
+
+
+   #java{
+        
+    top: 16%;
+   
+}
+#sql{
+    top: 32%;
+}
+#html{
+    top: 48%;
+}
+#css{
+    top: 64%;
+}
+
+#js{
+    top: 80%;
+}
+
+.w3-light-grey{
+    width: 50%;
+  
 }
