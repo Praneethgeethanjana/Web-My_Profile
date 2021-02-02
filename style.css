@@ -345,4 +345,20 @@ section{
     height: 36vh;
 }
 
+.about-img{
+    position: absolute;
+    border-radius: 3%;
+    width: 25%;
+    height: 90%;
+    right: 2%;
+    top: 5.5%;
+    background-image: url(img/about.jpg);
+    background-size: cover;
+    transition-duration: 1s;
+
+}
+
+.about-img:hover{
+    transform: rotateY(180deg);
+}
 
