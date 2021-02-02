@@ -5,31 +5,50 @@
 }
 
 .section-projects{
-    background: linear-gradient(#2DCFBE,#0093E9,#3d5dad);
+    background-color: #4b7bec;
 }
 
-section:nth-child(3)>h1{
+section:nth-child(4)>h1{
     left: 43%;
     position: absolute;
-    background-color: rgb(24, 30, 31);
+      font-family: 'Nunito', sans-serif;
     border-spacing: 10px;
-    color: rgb(192, 78, 167);
-    box-shadow: 2px 2px 2px 2px rgb(145, 14, 145);
+    color: white;
+    
     
 }
 
 .pro1,.pro2,.pro3,.pro4{
     position: absolute;
-    height: 30%;
-    width: 20%;
-    border: 1px solid green;
+    height: 48%;
+    width: 15%;
+    /* border: 1px solid green; */
     top: 35%;
-    border-radius: 10%;
+    border-radius: 20px;
     background-size: cover;
     box-shadow: 2px 2px 2px 2px rgb(8, 8, 82);
+    transition: all 0.3s;
+    /* -webkit-transition: all 0.5s; */
+
+  
+
 
     
 }
+
+.pro1:hover{
+    transform: scale(1.2);   
+}
+.pro2:hover{
+    transform: scale(1.2);  
+}
+.pro3:hover{
+    transform: scale(1.2);
+}
+.pro4:hover{
+    transform: scale(1.2);   
+}
+
 
 .pro1{
     left: 5%;

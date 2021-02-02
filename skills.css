@@ -8,16 +8,16 @@
     background:linear-gradient(#1089CD,#16A3A3);
 }
 
-section:nth-child(2)>h1{
-    /* right: 0; */
+section:nth-child(3)>h1{
+    
     left: 45%;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     position: absolute;
     font-weight: bold;
-    box-shadow: 3px 3px 3px 3px rgb(15, 90, 160);
-    background-color: rgb(16, 243, 243);
-    color: rgb(28, 57, 110);
+      font-family: 'Nunito', sans-serif;
+      color: white;
+   
 }
 
 
