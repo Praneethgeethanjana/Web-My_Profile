@@ -1,70 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.section-projects{
-    background-color: #4b7bec;
+section:nth-child(4) > h1 {
+  left: 50%;
+  transform: translate(-50%, 0%);
+  position: absolute;
+  font-family: "Nunito", sans-serif;
+  border-spacing: 10px;
+  color: white;
 }
 
-section:nth-child(4)>h1{
-    left: 43%;
-    position: absolute;
-      font-family: 'Nunito', sans-serif;
-    border-spacing: 10px;
-    color: white;
-    
-    
+.pro1,
+.pro2,
+.pro3,
+.pro4 {
+  position: absolute;
+  height: 48%;
+  width: 15%;
+  /* border: 1px solid green; */
+  top: 35%;
+  border-radius: 20px;
+  background-size: cover;
+  box-shadow: 2px 2px 4px 0px rgb(47, 47, 77);
+  transition: all 0.3s;
+  /* -webkit-transition: all 0.5s; */
 }
 
-.pro1,.pro2,.pro3,.pro4{
-    position: absolute;
-    height: 48%;
-    width: 15%;
-    /* border: 1px solid green; */
-    top: 35%;
-    border-radius: 20px;
-    background-size: cover;
-    box-shadow: 2px 2px 2px 2px rgb(8, 8, 82);
-    transition: all 0.3s;
-    /* -webkit-transition: all 0.5s; */
-
-  
-
-
-    
+.pro1:hover {
+  transform: scale(1.2);
+}
+.pro2:hover {
+  transform: scale(1.2);
+}
+.pro3:hover {
+  transform: scale(1.2);
+}
+.pro4:hover {
+  transform: scale(1.2);
 }
 
-.pro1:hover{
-    transform: scale(1.2);   
+.pro1 {
+  left: 5%;
+  background-image: url(img/project1.jpg);
 }
-.pro2:hover{
-    transform: scale(1.2);  
+.pro2 {
+  left: 28%;
+  background-image: url(img/project4.jpg);
 }
-.pro3:hover{
-    transform: scale(1.2);
+.pro3 {
+  left: 51%;
+  background-image: url(img/project3.jpg);
 }
-.pro4:hover{
-    transform: scale(1.2);   
-}
-
-
-.pro1{
-    left: 5%;
-    background-image: url(img/project1.jpg);
-    
-}
-.pro2{
-    left: 28%;
-    background-image: url(img/project4.jpg);
-}
-.pro3{
-    left: 51%;
-    background-image: url(img/project3.jpg);
-    
-}
-.pro4{
-    left: 74%;
-    background-image: url(img/project6.jpg);
+.pro4 {
+  left: 74%;
+  background-image: url(img/project6.jpg);
 }

@@ -3,9 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
+    color: rgb(228, 220, 220);
+    
 }
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -58,19 +64,13 @@ nav{
 #nav-ul > li{
     padding: 14px 0px 14px 0px;
     transition:all 0.2s ;
-    -webkit-transition:all 0.2s ;
-    -moz-transition:all 0.2s ;
-    -ms-transition:all 0.2s ;
-    -o-transition:all 0.2s ;
+
 
 }
 #nav-ul > li:hover{
     box-shadow: 0px 6px 0px 0px white;
     transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+
 }
 #nav-ul > li >a{
     padding: 16px 18px 16px 18px;
@@ -78,15 +78,24 @@ nav{
     color: white;
     text-decoration: none;
     transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
+
 }
 #nav-ul > li >a:focus{
     background: rgb(172, 54, 54);
 }
 /* //////////////////////// */
+
+main > section:nth-child(odd){
+    /* background-color: rgb(60, 64, 198,0.8); */
+    background-color: #4b6584;
+} 
+
+main > section:nth-child(even){
+    /* background-color:rgb(37, 204, 247,0.7); */
+    /* background-color: rgb(12, 36, 97,0.8); */
+    background-color: #778ca3;
+} 
+
 section{
 
     width: 100vw;
@@ -217,10 +226,10 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     /* border: 1px solid red; */
-    -webkit-border-radius: 100%;
+    /* -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
-    -o-border-radius: 100%;
+    -o-border-radius: 100%; */
 }
 .social>div::before{
     content: " ";
@@ -228,10 +237,10 @@ section{
     position: relative;
     left: -1.8px;
     border-radius: 100%;
-    -webkit-border-radius: 100%;
+    /* -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
-    -o-border-radius: 100%;
+    -o-border-radius: 100%; */
   
 }
 
@@ -259,26 +268,26 @@ section{
 }
 .fb{
     background-image: url(img/fb.png);
-    /* left: 0%; */
+    
 
 }
 
 .whatsapp{
     background-image: url(img/what.png);
-    /* left: 20%; */
+   
 }
 
 .linkedin{
     background-image: url(img/social-linkedin-circle-512.png);
-    /* left: 40%; */
+    
 }
 .github{
     background-image: url(img/github\).png);
-    /* left: 60%; */
+   
 }
 .stack{
     background-image: url(img/stackoverflow.png);
-    /* left: 80%; */
+    
 }
 
 
@@ -286,7 +295,7 @@ section{
     width: auto;
     /* background: linear-gradient(#129CAF,#83ccc7,#4ccec5); */
     color: white;
-    background-color: rgb(10, 81, 102);
+    /* background-color: rgb(10, 81, 102); */
    
     bottom: 10px;
     height: 36vh;
@@ -315,7 +324,7 @@ section{
     font-family:Arial, Helvetica, sans-serif;
     
     background-color: rgb(29, 159, 120,0.3);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(10px);
     
 
 }

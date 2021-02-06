@@ -1,23 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.section-assignments{
-    /* background: linear-gradient(#1d6bb4,#6EC2B9); */
-    background-color: #45aaf2;
-  
-    
- 
+.section-assignments {
+  /* background: linear-gradient(#1d6bb4,#6EC2B9); */
+  /* background-color: #45aaf2; */
 }
 
-
-section:nth-child(5)>h1{
-    position: absolute;
-    left: 43%;
-      font-family: 'Nunito', sans-serif;
-      /* color: white; */
+section:nth-child(5) > h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-family: "Nunito", sans-serif;
+  /* color: white; */
 }
 /* .h-assignment {
     position: absolute;
@@ -25,48 +22,48 @@ section:nth-child(5)>h1{
     top: 280%;
     left: 38%;
 } */
-.as1,.as2,.as3,.as4{
-    position: absolute;
-    height: 48%;
-    width: 15%;
-    /* border: 1px solid green; */
-    top: 35%;
-    border-radius: 10%;
-    background-size: cover;
-    box-shadow: 2px 2px 2px 2px rgb(8, 8, 82);
-    transition: all 0.3s;
-
+.as1,
+.as2,
+.as3,
+.as4 {
+  position: absolute;
+  height: 48%;
+  width: 15%;
+  /* border: 1px solid green; */
+  top: 35%;
+  border-radius: 10%;
+  background-size: cover;
+  box-shadow: 2px 2px 4px 0px rgb(30, 30, 56);
+  transition: all 0.3s;
 }
 
-
-.as1:hover{
-    transform: scale(1.2);
+.as1:hover {
+  transform: scale(1.2);
 }
-.as2:hover{
-    transform: scale(1.2);
+.as2:hover {
+  transform: scale(1.2);
 }
-.as3:hover{
-    transform: scale(1.2);
+.as3:hover {
+  transform: scale(1.2);
 }
-.as4:hover{
-    transform: scale(1.2);
-}
-
-.as1{
-    left: 5%;
-    background-image: url(img/assignment1.jpg);
-    
+.as4:hover {
+  transform: scale(1.2);
 }
 
-.as2{
-    left: 28%;
-    background-image: url(img/assignment2.jpg);
+.as1 {
+  left: 5%;
+  background-image: url(img/assignment1.jpg);
 }
-.as3{
-    left: 51%;
-    background-image: url(img/assignment3.jpg);
+
+.as2 {
+  left: 28%;
+  background-image: url(img/assignment2.jpg);
 }
-.as4{
-    left: 74%;
-    background-image: url(img/assignment4.jpg);
+.as3 {
+  left: 51%;
+  background-image: url(img/assignment3.jpg);
+}
+.as4 {
+  left: 74%;
+  background-image: url(img/assignment4.jpg);
 }
